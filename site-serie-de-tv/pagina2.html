@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ah, como eu queria poder usar algum framework-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        html {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        h1 {
+            font-size: 5vh;
+        }
+        h2 {
+            font-size: 3vh;
+        }
+        .tiletitle {
+            color: darkturquoise;
+            font-size: 2vh;
+        }
+        .tiletext {
+            font-size: 1.6vh;
+        }
+        #pfp {
+            border-radius: 50%;
+            height: 35vh;
+        }
+        #profile {
+            position: absolute;
+            width: 25vw;
+            height: 90vh;
+        }
+        #objective {
+            position: absolute;
+            width: 60vw;
+            left: 25vw;
+            border-right: 10vw;
+        }
+        .footer {
+        position: fixed;
+        height: 7vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+        color: white;
+        text-align: center;
+        }
+        .footer img {
+        position: fixed;
+        left: 60%;
+        height: 7vh;
+        width: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="profile">
+        <div id="pfpdiv">
+            <img id="pfp" src="/megamente.jpg" alt="Foto de perfil: Megamente">
+        </div>
+        <ul id="form">
+            <li>
+                <h3 class="tiletitle">Nome</h3>
+                <p class="tiletext">Megamente</p>
+            </li>
+            <li>
+                <h3 class="tiletitle">Estado civil</h3>
+                <p class="tiletext">Casado</p>
+            </li>
+            <li>
+                <h3 class="tiletitle">Endereço</h3>
+                <p class="tiletext">Covil do Mal - Metrocity</p>
+            </li>
+            <li>
+                <h3 class="tiletitle">Telefone</h3>
+                <p class="tiletext">+1-202-555-0141</p>
+                <p class="tiletext">Atende por: Megamente</p>
+            </li>
+            <li>
+                <h3 class="tiletitle">E-Mail</h3>
+                <p class="tiletext">megamind.oficial@dreamworks.com</p>
+            </li>
+        </ul>
+    </div>
+    <div id="objective">
+        <div id="header">
+            <h1>Megamente</h1>
+            <h2>Arthur Bufalo Rodrigues</h2>
+        </div>
+        <h3>Qualificações</h3>
+        <p id="objtext">Trabalho com tecnologias alienigenas desde que nasci, consigo me mutar holograficamente para parecer outras pessoas</p>
+        <h3>Escolaridade</h3>
+        <p id="objtext">Ensino fundamental completo</p>
+        <h3>Idiomas e Informatica</h3>
+        <p id="objtext">Tenho varios robos medusa, que criei para me ajudarem a construir minhas invenções</p>
+        <h3>Experiência profissional</h3>
+        <p id="objtext">Trabalho desde que nasci, e melhorei minhas habilidades pelos varios anos que passei na prisão</p>
+        <h3>Referencia Profissional</h3>
+        <p id="objtext">Prisão de Metro City para os Criminalmente Dotados</p>
+    </div>
+    <div class="footer">
+        <h3>Pagina Anterior</h3>
+        <a href="/site-serie-de-tv/index.html" rel="noopener noreferrer">
+            <img src="/rewind.png" alt="Rewind button" class="footer">
+        </a>
+    </div>
+</body>
+</html>
